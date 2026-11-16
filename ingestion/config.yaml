@@ -1,0 +1,37 @@
+# NOAA Climate Data Online (CDO) v2 ingestion settings for Assignment 3, Part 1.
+# Docs: https://www.ncei.noaa.gov/cdo-web/webservices/v2
+# The token is NOT stored here. Set it in your shell: export NOAA_TOKEN=...
+
+source_name: noaa_cdo_v2_ghcnd
+
+api:
+  base_url: https://www.ncei.noaa.gov/cdo-web/api/v2
+  timeout_seconds: 30
+  page_limit: 1000            # NOAA max per page is 1000
+  max_requests_per_second: 5  # NOAA limit: 5/sec and 10,000/day per token
+  max_retries: 5              # used by your request_with_retry()
+  backoff_base_seconds: 1     # used by your request_with_retry()
+  max_retry_after_seconds: 60 # give up if the server asks us to wait longer than this
+
+request:
+  dataset_id: GHCND           # daily summaries from weather stations
+  datatype_ids: [PRCP, SNOW, TMAX, TMIN]
+  units: standard             # inches and degrees F
+  # NOAA allows at most one year of daily data per request, so the range is split.
+  # Purchases run 2025-10-01..2026-09-30; returns run up to 2026-11-14.
+  date_windows:
+    - {start: "2025-10-01", end: "2026-09-30"}
+    - {start: "2026-10-01", end: "2026-11-14"}
+
+stations_file: stations.csv
+
+bronze:
+  # Fill in after the bucket is created. Use --local to write to ./bronze_local instead.
+  s3_bucket: adsp-31011-hw3-bronze-ehuang  # teardown: aws s3 rb s3://adsp-31011-hw3-bronze-ehuang --force
+  s3_prefix: bronze/noaa/ghcnd
+  aws_region: us-east-1
+  local_dir: bronze_local
+
+logging:
+  level: INFO
+  file: logs/ingest.log

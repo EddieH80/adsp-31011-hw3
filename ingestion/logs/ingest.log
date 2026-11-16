@@ -1,0 +1,668 @@
+2026-11-15 20:29:09,128 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2025-10-01..2026-09-30
+2026-11-15 20:29:09,576 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:29:09,656 INFO ingest:   page 2: 447 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:29:09,657 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2026-10-01..2026-11-14
+2026-11-15 20:29:09,841 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:29:09,841 INFO ingest: Bronze done: 3 pages, 1611 records, 0 failed station-windows
+2026-11-15 20:29:09,851 INFO ingest: DQ nulls        passed=1611    failed=0      skipped=0      
+2026-11-15 20:29:09,851 INFO ingest: DQ duplicates   passed=1611    failed=0      skipped=0      exact_duplicate_copies=0 conflicting_copies=0
+2026-11-15 20:29:09,851 INFO ingest: DQ ranges       passed=1611    failed=0      skipped=0      
+2026-11-15 20:36:00,203 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2025-10-01..2026-09-30
+2026-11-15 20:36:00,685 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:00,781 INFO ingest:   page 2: 447 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:00,781 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2026-10-01..2026-11-14
+2026-11-15 20:36:00,948 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:00,948 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2025-10-01..2026-09-30
+2026-11-15 20:36:01,243 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:01,376 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:01,376 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2026-10-01..2026-11-14
+2026-11-15 20:36:01,565 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:01,566 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2025-10-01..2026-09-30
+2026-11-15 20:36:01,867 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:01,997 INFO ingest:   page 2: 458 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:01,997 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2026-10-01..2026-11-14
+2026-11-15 20:36:02,182 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:02,182 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2025-10-01..2026-09-30
+2026-11-15 20:36:02,497 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:02,606 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:02,606 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2026-10-01..2026-11-14
+2026-11-15 20:36:02,777 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:02,777 INFO ingest: Fetching GHCND:USW00053872 (Charlotte, NC) 2025-10-01..2026-09-30
+2026-11-15 20:36:03,163 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00053872/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:03,226 INFO ingest:   page 2: 49 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00053872/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:03,226 INFO ingest: Fetching GHCND:USW00053872 (Charlotte, NC) 2026-10-01..2026-11-14
+2026-11-15 20:36:03,444 INFO ingest:   page 1: 125 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00053872/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:03,444 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2025-10-01..2026-09-30
+2026-11-15 20:36:03,678 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:03,860 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:03,860 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2026-10-01..2026-11-14
+2026-11-15 20:36:04,044 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:04,044 INFO ingest: Fetching GHCND:USW00004804 (Columbus, OH) 2025-10-01..2026-09-30
+2026-11-15 20:36:04,314 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00004804/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:04,467 INFO ingest:   page 2: 94 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00004804/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:04,467 INFO ingest: Fetching GHCND:USW00004804 (Columbus, OH) 2026-10-01..2026-11-14
+2026-11-15 20:36:04,656 INFO ingest:   page 1: 126 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00004804/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:04,657 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2025-10-01..2026-09-30
+2026-11-15 20:36:04,924 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:05,096 INFO ingest:   page 2: 455 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:05,097 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2026-10-01..2026-11-14
+2026-11-15 20:36:05,268 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:05,268 INFO ingest: Fetching GHCND:USW00093067 (Denver, CO) 2025-10-01..2026-09-30
+2026-11-15 20:36:05,524 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093067/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:05,689 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093067/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:05,690 INFO ingest: Fetching GHCND:USW00093067 (Denver, CO) 2026-10-01..2026-11-14
+2026-11-15 20:36:05,959 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093067/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:05,960 INFO ingest: Fetching GHCND:USW00094817 (Detroit, MI) 2025-10-01..2026-09-30
+2026-11-15 20:36:06,119 INFO ingest:   page 1: 981 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094817/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:06,119 INFO ingest: Fetching GHCND:USW00094817 (Detroit, MI) 2026-10-01..2026-11-14
+2026-11-15 20:36:06,289 INFO ingest:   page 1: 126 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094817/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:06,289 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2025-10-01..2026-09-30
+2026-11-15 20:36:06,583 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:06,719 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:06,719 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2026-10-01..2026-11-14
+2026-11-15 20:36:06,907 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:06,907 INFO ingest: Fetching GHCND:USW00003967 (Kansas City, MO) 2025-10-01..2026-09-30
+2026-11-15 20:36:07,269 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003967/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:07,335 INFO ingest:   page 2: 71 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003967/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:07,335 INFO ingest: Fetching GHCND:USW00003967 (Kansas City, MO) 2026-10-01..2026-11-14
+2026-11-15 20:36:07,539 INFO ingest:   page 1: 113 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003967/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:07,540 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2025-10-01..2026-09-30
+2026-11-15 20:36:07,837 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:07,967 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:07,967 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2026-10-01..2026-11-14
+2026-11-15 20:36:08,152 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:08,152 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2025-10-01..2026-09-30
+2026-11-15 20:36:08,456 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:08,572 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:08,572 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2026-10-01..2026-11-14
+2026-11-15 20:36:08,769 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:08,769 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2025-10-01..2026-09-30
+2026-11-15 20:36:09,053 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:09,194 INFO ingest:   page 2: 452 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:09,195 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2026-10-01..2026-11-14
+2026-11-15 20:36:09,373 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:09,373 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2025-10-01..2026-09-30
+2026-11-15 20:36:09,671 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:09,816 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:09,816 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2026-10-01..2026-11-14
+2026-11-15 20:36:09,992 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:09,992 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2025-10-01..2026-09-30
+2026-11-15 20:36:10,311 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:10,422 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:10,425 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2026-10-01..2026-11-14
+2026-11-15 20:36:10,609 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:10,609 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2025-10-01..2026-09-30
+2026-11-15 20:36:10,853 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:11,026 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:11,026 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2026-10-01..2026-11-14
+2026-11-15 20:36:11,210 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:11,210 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2025-10-01..2026-09-30
+2026-11-15 20:36:11,493 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:11,637 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:11,638 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2026-10-01..2026-11-14
+2026-11-15 20:36:11,823 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:11,823 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2025-10-01..2026-09-30
+2026-11-15 20:36:12,118 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:12,251 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:12,251 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2026-10-01..2026-11-14
+2026-11-15 20:36:12,435 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:12,436 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2025-10-01..2026-09-30
+2026-11-15 20:36:12,782 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:12,864 INFO ingest:   page 2: 205 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:12,864 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2026-10-01..2026-11-14
+2026-11-15 20:36:13,053 INFO ingest:   page 1: 139 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:13,053 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2025-10-01..2026-09-30
+2026-11-15 20:36:13,385 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:13,478 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:13,478 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2026-10-01..2026-11-14
+2026-11-15 20:36:13,660 INFO ingest:   page 1: 165 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:13,660 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2025-10-01..2026-09-30
+2026-11-15 20:36:13,901 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:14,078 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:14,078 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2026-10-01..2026-11-14
+2026-11-15 20:36:14,255 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:14,256 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2025-10-01..2026-09-30
+2026-11-15 20:36:14,574 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:14,679 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:14,679 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2026-10-01..2026-11-14
+2026-11-15 20:36:14,864 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:14,864 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2025-10-01..2026-09-30
+2026-11-15 20:36:15,193 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:15,287 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:15,287 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2026-10-01..2026-11-14
+2026-11-15 20:36:15,477 INFO ingest:   page 1: 162 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:15,477 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2025-10-01..2026-09-30
+2026-11-15 20:36:15,809 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:15,910 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:15,910 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2026-10-01..2026-11-14
+2026-11-15 20:36:16,089 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:16,090 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2025-10-01..2026-09-30
+2026-11-15 20:36:16,366 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:16,498 INFO ingest:   page 2: 119 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:16,499 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2026-10-01..2026-11-14
+2026-11-15 20:36:16,694 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:16,694 INFO ingest: Fetching GHCND:USW00093227 (San Francisco, CA) 2025-10-01..2026-09-30
+2026-11-15 20:36:16,972 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093227/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:17,107 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093227/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:17,108 INFO ingest: Fetching GHCND:USW00093227 (San Francisco, CA) 2026-10-01..2026-11-14
+2026-11-15 20:36:17,306 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093227/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:17,306 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2025-10-01..2026-09-30
+2026-11-15 20:36:17,598 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:17,735 INFO ingest:   page 2: 459 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:17,736 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2026-10-01..2026-11-14
+2026-11-15 20:36:17,911 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:17,911 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2025-10-01..2026-09-30
+2026-11-15 20:36:18,204 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:18,347 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:18,348 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2026-10-01..2026-11-14
+2026-11-15 20:36:18,523 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:18,524 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2025-10-01..2026-09-30
+2026-11-15 20:36:18,802 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:18,955 INFO ingest:   page 2: 459 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:18,955 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2026-10-01..2026-11-14
+2026-11-15 20:36:19,140 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:19,140 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2025-10-01..2026-09-30
+2026-11-15 20:36:19,425 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 20:36:19,568 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 20:36:19,569 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2026-10-01..2026-11-14
+2026-11-15 20:36:19,752 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 20:36:19,752 INFO ingest: Bronze done: 95 pages, 47852 records, 0 failed station-windows
+2026-11-15 20:36:19,925 INFO ingest: DQ nulls        passed=47852   failed=0      skipped=0      
+2026-11-15 20:36:19,925 INFO ingest: DQ duplicates   passed=47852   failed=0      skipped=0      exact_duplicate_copies=0 conflicting_copies=0
+2026-11-15 20:36:19,925 INFO ingest: DQ ranges       passed=47852   failed=0      skipped=0      
+2026-11-15 21:02:40,746 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2025-10-01..2026-09-30
+2026-11-15 21:02:41,662 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:41,974 INFO ingest:   page 2: 447 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:41,974 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2026-10-01..2026-11-14
+2026-11-15 21:02:42,200 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:42,200 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2025-10-01..2026-09-30
+2026-11-15 21:02:42,463 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:42,717 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:42,717 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2026-10-01..2026-11-14
+2026-11-15 21:02:42,927 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:42,927 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2025-10-01..2026-09-30
+2026-11-15 21:02:43,557 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:43,907 INFO ingest:   page 2: 458 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:43,907 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2026-10-01..2026-11-14
+2026-11-15 21:02:44,350 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:44,350 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2025-10-01..2026-09-30
+2026-11-15 21:02:44,732 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:45,034 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:45,034 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2026-10-01..2026-11-14
+2026-11-15 21:02:45,195 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:45,196 INFO ingest: Fetching GHCND:USW00013881 (Charlotte, NC) 2025-10-01..2026-09-30
+2026-11-15 21:02:45,603 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:45,904 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:45,905 INFO ingest: Fetching GHCND:USW00013881 (Charlotte, NC) 2026-10-01..2026-11-14
+2026-11-15 21:02:46,199 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:46,199 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2025-10-01..2026-09-30
+2026-11-15 21:02:46,650 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:46,846 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:46,846 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2026-10-01..2026-11-14
+2026-11-15 21:02:47,112 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:47,112 INFO ingest: Fetching GHCND:USW00014821 (Columbus, OH) 2025-10-01..2026-09-30
+2026-11-15 21:02:47,622 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:47,840 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:47,841 INFO ingest: Fetching GHCND:USW00014821 (Columbus, OH) 2026-10-01..2026-11-14
+2026-11-15 21:02:48,074 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:48,074 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2025-10-01..2026-09-30
+2026-11-15 21:02:48,454 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:48,781 INFO ingest:   page 2: 455 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:48,781 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2026-10-01..2026-11-14
+2026-11-15 21:02:48,992 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:48,993 INFO ingest: Fetching GHCND:USW00003017 (Denver, CO) 2025-10-01..2026-09-30
+2026-11-15 21:02:49,357 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:49,583 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:49,583 INFO ingest: Fetching GHCND:USW00003017 (Denver, CO) 2026-10-01..2026-11-14
+2026-11-15 21:02:49,710 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:49,710 INFO ingest: Fetching GHCND:USW00094847 (Detroit, MI) 2025-10-01..2026-09-30
+2026-11-15 21:02:50,193 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:50,471 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:50,471 INFO ingest: Fetching GHCND:USW00094847 (Detroit, MI) 2026-10-01..2026-11-14
+2026-11-15 21:02:50,682 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:50,682 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2025-10-01..2026-09-30
+2026-11-15 21:02:51,014 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:51,311 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:51,311 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2026-10-01..2026-11-14
+2026-11-15 21:02:51,548 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:51,548 INFO ingest: Fetching GHCND:USW00013988 (Kansas City, MO) 2025-10-01..2026-09-30
+2026-11-15 21:02:52,079 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013988/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:52,310 INFO ingest:   page 2: 92 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013988/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:52,310 INFO ingest: Fetching GHCND:USW00013988 (Kansas City, MO) 2026-10-01..2026-11-14
+2026-11-15 21:02:52,492 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013988/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:52,493 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2025-10-01..2026-09-30
+2026-11-15 21:02:53,153 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:53,371 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:53,371 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2026-10-01..2026-11-14
+2026-11-15 21:02:53,564 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:53,565 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2025-10-01..2026-09-30
+2026-11-15 21:02:53,882 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:54,039 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:54,039 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2026-10-01..2026-11-14
+2026-11-15 21:02:54,249 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:54,249 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2025-10-01..2026-09-30
+2026-11-15 21:02:54,611 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:54,774 INFO ingest:   page 2: 452 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:54,775 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2026-10-01..2026-11-14
+2026-11-15 21:02:55,001 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:55,001 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2025-10-01..2026-09-30
+2026-11-15 21:02:55,585 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:55,890 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:55,891 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2026-10-01..2026-11-14
+2026-11-15 21:02:56,115 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:56,115 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2025-10-01..2026-09-30
+2026-11-15 21:02:56,515 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:56,742 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:56,743 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2026-10-01..2026-11-14
+2026-11-15 21:02:56,937 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:56,937 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2025-10-01..2026-09-30
+2026-11-15 21:02:57,363 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:57,565 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:57,566 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2026-10-01..2026-11-14
+2026-11-15 21:02:57,760 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:57,760 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2025-10-01..2026-09-30
+2026-11-15 21:02:58,183 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:58,488 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:58,488 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2026-10-01..2026-11-14
+2026-11-15 21:02:58,860 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:02:58,861 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2025-10-01..2026-09-30
+2026-11-15 21:02:59,343 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:02:59,701 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:02:59,701 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2026-10-01..2026-11-14
+2026-11-15 21:03:00,092 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:00,092 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2025-10-01..2026-09-30
+2026-11-15 21:03:00,515 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:00,908 INFO ingest:   page 2: 205 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:00,908 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2026-10-01..2026-11-14
+2026-11-15 21:03:01,150 INFO ingest:   page 1: 139 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:01,150 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2025-10-01..2026-09-30
+2026-11-15 21:03:01,527 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:01,786 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:01,786 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2026-10-01..2026-11-14
+2026-11-15 21:03:01,981 INFO ingest:   page 1: 165 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:01,982 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2025-10-01..2026-09-30
+2026-11-15 21:03:02,454 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:02,683 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:02,683 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2026-10-01..2026-11-14
+2026-11-15 21:03:02,858 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:02,858 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2025-10-01..2026-09-30
+2026-11-15 21:03:03,307 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:03,601 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:03,601 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2026-10-01..2026-11-14
+2026-11-15 21:03:03,814 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:03,814 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2025-10-01..2026-09-30
+2026-11-15 21:03:04,223 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:04,412 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:04,412 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2026-10-01..2026-11-14
+2026-11-15 21:03:04,608 INFO ingest:   page 1: 162 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:04,609 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2025-10-01..2026-09-30
+2026-11-15 21:03:04,834 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:05,044 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:05,045 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2026-10-01..2026-11-14
+2026-11-15 21:03:05,166 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:05,166 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2025-10-01..2026-09-30
+2026-11-15 21:03:05,650 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:06,027 INFO ingest:   page 2: 119 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:06,028 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2026-10-01..2026-11-14
+2026-11-15 21:03:06,195 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:06,195 INFO ingest: Fetching GHCND:USW00093227 (San Francisco, CA) 2025-10-01..2026-09-30
+2026-11-15 21:03:07,189 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093227/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:07,415 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093227/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:07,415 INFO ingest: Fetching GHCND:USW00093227 (San Francisco, CA) 2026-10-01..2026-11-14
+2026-11-15 21:03:07,610 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093227/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:07,610 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2025-10-01..2026-09-30
+2026-11-15 21:03:08,255 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:08,591 INFO ingest:   page 2: 459 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:08,591 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2026-10-01..2026-11-14
+2026-11-15 21:03:08,709 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:08,709 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2025-10-01..2026-09-30
+2026-11-15 21:03:09,200 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:09,417 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:09,417 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2026-10-01..2026-11-14
+2026-11-15 21:03:09,721 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:09,721 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2025-10-01..2026-09-30
+2026-11-15 21:03:10,027 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:10,256 INFO ingest:   page 2: 459 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:10,256 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2026-10-01..2026-11-14
+2026-11-15 21:03:10,447 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:10,447 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2025-10-01..2026-09-30
+2026-11-15 21:03:10,817 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:03:11,148 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:03:11,148 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2026-10-01..2026-11-14
+2026-11-15 21:03:11,394 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:03:11,394 INFO ingest: Bronze done: 96 pages, 49668 records, 0 failed station-windows
+2026-11-15 21:03:11,569 INFO ingest: DQ nulls        passed=49668   failed=0      skipped=0      
+2026-11-15 21:03:11,569 INFO ingest: DQ duplicates   passed=49668   failed=0      skipped=0      exact_duplicate_copies=0 conflicting_copies=0
+2026-11-15 21:03:11,569 INFO ingest: DQ ranges       passed=49668   failed=0      skipped=0      
+2026-11-15 21:06:43,441 WARNING noaa: Retryable HTTP failure (status=429); retrying in 1.00s: url=https://www.ncei.noaa.gov/cdo-web/api/v2/data params={'datasetid': 'GHCND', 'stationid': 'GHCND:USC00144199', 'datatypeid': 'PRCP', 'startdate': '2025-10-01', 'enddate': '2026-09-30', 'limit': 1} retry=1/5
+2026-11-15 21:07:23,086 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2025-10-01..2026-09-30
+2026-11-15 21:07:23,418 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:23,502 INFO ingest:   page 2: 447 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:23,502 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2026-10-01..2026-11-14
+2026-11-15 21:07:23,684 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:23,684 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2025-10-01..2026-09-30
+2026-11-15 21:07:24,386 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:24,466 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:24,466 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2026-10-01..2026-11-14
+2026-11-15 21:07:24,652 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:24,652 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2025-10-01..2026-09-30
+2026-11-15 21:07:24,981 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:25,077 INFO ingest:   page 2: 458 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:25,078 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2026-10-01..2026-11-14
+2026-11-15 21:07:25,259 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:25,259 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2025-10-01..2026-09-30
+2026-11-15 21:07:25,577 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:25,682 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:25,682 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2026-10-01..2026-11-14
+2026-11-15 21:07:25,867 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:25,867 INFO ingest: Fetching GHCND:USW00013881 (Charlotte, NC) 2025-10-01..2026-09-30
+2026-11-15 21:07:26,199 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:26,298 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:26,298 INFO ingest: Fetching GHCND:USW00013881 (Charlotte, NC) 2026-10-01..2026-11-14
+2026-11-15 21:07:26,473 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:26,474 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2025-10-01..2026-09-30
+2026-11-15 21:07:26,794 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:26,941 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:26,941 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2026-10-01..2026-11-14
+2026-11-15 21:07:27,094 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:27,094 INFO ingest: Fetching GHCND:USW00014821 (Columbus, OH) 2025-10-01..2026-09-30
+2026-11-15 21:07:27,416 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:27,522 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:27,523 INFO ingest: Fetching GHCND:USW00014821 (Columbus, OH) 2026-10-01..2026-11-14
+2026-11-15 21:07:27,698 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:27,698 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2025-10-01..2026-09-30
+2026-11-15 21:07:28,039 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:28,124 INFO ingest:   page 2: 455 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:28,124 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2026-10-01..2026-11-14
+2026-11-15 21:07:28,304 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:28,304 INFO ingest: Fetching GHCND:USW00003017 (Denver, CO) 2025-10-01..2026-09-30
+2026-11-15 21:07:28,645 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:28,736 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:28,736 INFO ingest: Fetching GHCND:USW00003017 (Denver, CO) 2026-10-01..2026-11-14
+2026-11-15 21:07:28,917 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:28,917 INFO ingest: Fetching GHCND:USW00094847 (Detroit, MI) 2025-10-01..2026-09-30
+2026-11-15 21:07:29,250 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:29,469 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:29,469 INFO ingest: Fetching GHCND:USW00094847 (Detroit, MI) 2026-10-01..2026-11-14
+2026-11-15 21:07:29,540 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:29,540 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2025-10-01..2026-09-30
+2026-11-15 21:07:29,858 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:30,007 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:30,008 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2026-10-01..2026-11-14
+2026-11-15 21:07:30,149 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:30,149 INFO ingest: Fetching GHCND:USC00144199 (Kansas City, MO) 2025-10-01..2026-09-30
+2026-11-15 21:07:30,533 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00144199/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:30,662 INFO ingest:   page 2: 455 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00144199/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:30,662 INFO ingest: Fetching GHCND:USC00144199 (Kansas City, MO) 2026-10-01..2026-11-14
+2026-11-15 21:07:30,792 INFO noaa: NOAA returned no data: url=https://www.ncei.noaa.gov/cdo-web/api/v2/data params={'datasetid': 'GHCND', 'stationid': 'GHCND:USC00144199', 'datatypeid': ['PRCP', 'SNOW', 'TMAX', 'TMIN'], 'startdate': '2026-10-01', 'enddate': '2026-11-14', 'units': 'standard', 'limit': 1000, 'offset': 1}
+2026-11-15 21:07:30,793 INFO ingest:   page 1: 0 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00144199/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:30,793 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2025-10-01..2026-09-30
+2026-11-15 21:07:31,172 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:31,299 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:31,299 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2026-10-01..2026-11-14
+2026-11-15 21:07:31,436 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:31,436 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2025-10-01..2026-09-30
+2026-11-15 21:07:31,802 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:31,869 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:31,869 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2026-10-01..2026-11-14
+2026-11-15 21:07:32,063 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:32,063 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2025-10-01..2026-09-30
+2026-11-15 21:07:32,461 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:32,572 INFO ingest:   page 2: 452 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:32,573 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2026-10-01..2026-11-14
+2026-11-15 21:07:32,731 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:32,731 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2025-10-01..2026-09-30
+2026-11-15 21:07:33,050 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:33,194 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:33,194 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2026-10-01..2026-11-14
+2026-11-15 21:07:33,342 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:33,342 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2025-10-01..2026-09-30
+2026-11-15 21:07:33,678 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:33,769 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:33,770 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2026-10-01..2026-11-14
+2026-11-15 21:07:33,957 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:33,957 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2025-10-01..2026-09-30
+2026-11-15 21:07:34,286 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:34,394 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:34,395 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2026-10-01..2026-11-14
+2026-11-15 21:07:34,573 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:34,573 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2025-10-01..2026-09-30
+2026-11-15 21:07:34,895 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:34,986 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:34,986 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2026-10-01..2026-11-14
+2026-11-15 21:07:35,173 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:35,173 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2025-10-01..2026-09-30
+2026-11-15 21:07:35,514 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:35,595 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:35,595 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2026-10-01..2026-11-14
+2026-11-15 21:07:35,777 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:35,778 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2025-10-01..2026-09-30
+2026-11-15 21:07:36,057 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:36,188 INFO ingest:   page 2: 205 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:36,188 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2026-10-01..2026-11-14
+2026-11-15 21:07:36,385 INFO ingest:   page 1: 139 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:36,385 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2025-10-01..2026-09-30
+2026-11-15 21:07:36,714 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:36,813 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:36,813 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2026-10-01..2026-11-14
+2026-11-15 21:07:36,999 INFO ingest:   page 1: 165 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:37,000 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2025-10-01..2026-09-30
+2026-11-15 21:07:37,277 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:37,415 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:37,415 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2026-10-01..2026-11-14
+2026-11-15 21:07:37,606 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:37,606 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2025-10-01..2026-09-30
+2026-11-15 21:07:37,885 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:38,041 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:38,041 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2026-10-01..2026-11-14
+2026-11-15 21:07:38,218 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:38,218 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2025-10-01..2026-09-30
+2026-11-15 21:07:38,547 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:38,642 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:38,642 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2026-10-01..2026-11-14
+2026-11-15 21:07:38,835 INFO ingest:   page 1: 162 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:38,835 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2025-10-01..2026-09-30
+2026-11-15 21:07:39,153 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:39,258 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:39,258 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2026-10-01..2026-11-14
+2026-11-15 21:07:39,449 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:39,450 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2025-10-01..2026-09-30
+2026-11-15 21:07:39,727 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:39,859 INFO ingest:   page 2: 119 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:39,859 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2026-10-01..2026-11-14
+2026-11-15 21:07:40,059 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:40,059 INFO ingest: Fetching GHCND:USW00023234 (San Francisco, CA) 2025-10-01..2026-09-30
+2026-11-15 21:07:40,336 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023234/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:40,468 INFO ingest:   page 2: 95 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023234/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:40,469 INFO ingest: Fetching GHCND:USW00023234 (San Francisco, CA) 2026-10-01..2026-11-14
+2026-11-15 21:07:40,672 INFO ingest:   page 1: 123 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023234/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:40,672 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2025-10-01..2026-09-30
+2026-11-15 21:07:40,993 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:41,092 INFO ingest:   page 2: 459 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:41,093 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2026-10-01..2026-11-14
+2026-11-15 21:07:41,284 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:41,284 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2025-10-01..2026-09-30
+2026-11-15 21:07:41,606 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:41,714 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:41,715 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2026-10-01..2026-11-14
+2026-11-15 21:07:41,894 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:41,894 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2025-10-01..2026-09-30
+2026-11-15 21:07:42,220 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:42,327 INFO ingest:   page 2: 459 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:42,327 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2026-10-01..2026-11-14
+2026-11-15 21:07:42,510 INFO ingest:   page 1: 164 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:42,510 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2025-10-01..2026-09-30
+2026-11-15 21:07:42,790 INFO ingest:   page 1: 1000 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:07:42,933 INFO ingest:   page 2: 460 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:07:42,934 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2026-10-01..2026-11-14
+2026-11-15 21:07:43,118 INFO ingest:   page 1: 168 records -> /Users/ehuang/Desktop/ai-agents/tutoring-agent-workspace/adsp-31011/HW/HW3/ingestion/bronze_local/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:07:43,118 INFO ingest: Bronze done: 96 pages, 49908 records, 0 failed station-windows
+2026-11-15 21:07:43,296 INFO ingest: DQ nulls        passed=49908   failed=0      skipped=0      
+2026-11-15 21:07:43,297 INFO ingest: DQ duplicates   passed=49908   failed=0      skipped=0      exact_duplicate_copies=0 conflicting_copies=0
+2026-11-15 21:07:43,297 INFO ingest: DQ ranges       passed=49908   failed=0      skipped=0      
+2026-11-15 21:11:49,966 INFO botocore.credentials: Found credentials in shared credentials file: ~/.aws/credentials
+2026-11-15 21:11:50,144 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2025-10-01..2026-09-30
+2026-11-15 21:11:50,933 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:51,133 INFO ingest:   page 2: 447 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:51,134 INFO ingest: Fetching GHCND:USW00013874 (Atlanta, GA) 2026-10-01..2026-11-14
+2026-11-15 21:11:51,306 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013874/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:51,306 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2025-10-01..2026-09-30
+2026-11-15 21:11:51,591 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:51,801 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:51,801 INFO ingest: Fetching GHCND:USW00013958 (Austin, TX) 2026-10-01..2026-11-14
+2026-11-15 21:11:51,935 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013958/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:51,935 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2025-10-01..2026-09-30
+2026-11-15 21:11:52,284 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:52,533 INFO ingest:   page 2: 458 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:52,533 INFO ingest: Fetching GHCND:USW00093721 (Baltimore, MD) 2026-10-01..2026-11-14
+2026-11-15 21:11:52,669 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00093721/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:52,669 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2025-10-01..2026-09-30
+2026-11-15 21:11:52,951 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:53,107 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:53,107 INFO ingest: Fetching GHCND:USW00094728 (Boston, MA) 2026-10-01..2026-11-14
+2026-11-15 21:11:53,288 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094728/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:53,289 INFO ingest: Fetching GHCND:USW00013881 (Charlotte, NC) 2025-10-01..2026-09-30
+2026-11-15 21:11:53,617 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:53,866 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:53,866 INFO ingest: Fetching GHCND:USW00013881 (Charlotte, NC) 2026-10-01..2026-11-14
+2026-11-15 21:11:53,994 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013881/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:53,994 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2025-10-01..2026-09-30
+2026-11-15 21:11:54,317 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:54,561 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:54,561 INFO ingest: Fetching GHCND:USW00094846 (Chicago, IL) 2026-10-01..2026-11-14
+2026-11-15 21:11:54,700 INFO ingest:   page 1: 168 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094846/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:54,700 INFO ingest: Fetching GHCND:USW00014821 (Columbus, OH) 2025-10-01..2026-09-30
+2026-11-15 21:11:55,030 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:55,207 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:55,208 INFO ingest: Fetching GHCND:USW00014821 (Columbus, OH) 2026-10-01..2026-11-14
+2026-11-15 21:11:55,367 INFO ingest:   page 1: 168 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014821/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:55,367 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2025-10-01..2026-09-30
+2026-11-15 21:11:55,654 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:55,855 INFO ingest:   page 2: 455 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:55,855 INFO ingest: Fetching GHCND:USW00013960 (Dallas, TX) 2026-10-01..2026-11-14
+2026-11-15 21:11:56,019 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:56,019 INFO ingest: Fetching GHCND:USW00003017 (Denver, CO) 2025-10-01..2026-09-30
+2026-11-15 21:11:56,322 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:56,522 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:56,522 INFO ingest: Fetching GHCND:USW00003017 (Denver, CO) 2026-10-01..2026-11-14
+2026-11-15 21:11:56,724 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00003017/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:56,724 INFO ingest: Fetching GHCND:USW00094847 (Detroit, MI) 2025-10-01..2026-09-30
+2026-11-15 21:11:56,974 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:57,161 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:57,161 INFO ingest: Fetching GHCND:USW00094847 (Detroit, MI) 2026-10-01..2026-11-14
+2026-11-15 21:11:57,311 INFO ingest:   page 1: 168 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00094847/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:57,311 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2025-10-01..2026-09-30
+2026-11-15 21:11:57,605 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:57,790 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:57,790 INFO ingest: Fetching GHCND:USW00012960 (Houston, TX) 2026-10-01..2026-11-14
+2026-11-15 21:11:57,950 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012960/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:57,951 INFO ingest: Fetching GHCND:USC00144199 (Kansas City, MO) 2025-10-01..2026-09-30
+2026-11-15 21:11:58,226 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00144199/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:58,409 INFO ingest:   page 2: 455 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00144199/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:58,409 INFO ingest: Fetching GHCND:USC00144199 (Kansas City, MO) 2026-10-01..2026-11-14
+2026-11-15 21:11:58,475 INFO noaa: NOAA returned no data: url=https://www.ncei.noaa.gov/cdo-web/api/v2/data params={'datasetid': 'GHCND', 'stationid': 'GHCND:USC00144199', 'datatypeid': ['PRCP', 'SNOW', 'TMAX', 'TMIN'], 'startdate': '2026-10-01', 'enddate': '2026-11-14', 'units': 'standard', 'limit': 1000, 'offset': 1}
+2026-11-15 21:11:58,565 INFO ingest:   page 1: 0 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00144199/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:58,565 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2025-10-01..2026-09-30
+2026-11-15 21:11:58,852 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:59,034 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:59,034 INFO ingest: Fetching GHCND:USW00023169 (Las Vegas, NV) 2026-10-01..2026-11-14
+2026-11-15 21:11:59,245 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023169/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:59,245 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2025-10-01..2026-09-30
+2026-11-15 21:11:59,487 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:11:59,625 INFO ingest:   page 2: 95 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:11:59,625 INFO ingest: Fetching GHCND:USW00023152 (Los Angeles, CA) 2026-10-01..2026-11-14
+2026-11-15 21:11:59,826 INFO ingest:   page 1: 123 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023152/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:11:59,827 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2025-10-01..2026-09-30
+2026-11-15 21:12:00,113 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:00,296 INFO ingest:   page 2: 452 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:00,296 INFO ingest: Fetching GHCND:USW00012839 (Miami, FL) 2026-10-01..2026-11-14
+2026-11-15 21:12:00,446 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012839/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:00,446 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2025-10-01..2026-09-30
+2026-11-15 21:12:00,769 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:01,014 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:01,015 INFO ingest: Fetching GHCND:USW00014922 (Minneapolis, MN) 2026-10-01..2026-11-14
+2026-11-15 21:12:01,151 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014922/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:01,152 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2025-10-01..2026-09-30
+2026-11-15 21:12:01,443 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:01,775 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:01,776 INFO ingest: Fetching GHCND:USW00013897 (Nashville, TN) 2026-10-01..2026-11-14
+2026-11-15 21:12:01,909 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013897/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:01,909 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2025-10-01..2026-09-30
+2026-11-15 21:12:02,281 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:02,494 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:02,494 INFO ingest: Fetching GHCND:USW00014732 (New York, NY) 2026-10-01..2026-11-14
+2026-11-15 21:12:02,666 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014732/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:02,666 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2025-10-01..2026-09-30
+2026-11-15 21:12:02,937 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:03,116 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:03,116 INFO ingest: Fetching GHCND:USW00012815 (Orlando, FL) 2026-10-01..2026-11-14
+2026-11-15 21:12:03,271 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012815/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:03,271 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2025-10-01..2026-09-30
+2026-11-15 21:12:03,605 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:03,780 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:03,781 INFO ingest: Fetching GHCND:USW00013739 (Philadelphia, PA) 2026-10-01..2026-11-14
+2026-11-15 21:12:03,946 INFO ingest:   page 1: 168 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013739/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:03,946 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2025-10-01..2026-09-30
+2026-11-15 21:12:04,290 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:04,441 INFO ingest:   page 2: 205 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:04,441 INFO ingest: Fetching GHCND:USW00003192 (Phoenix, AZ) 2026-10-01..2026-11-14
+2026-11-15 21:12:04,629 INFO ingest:   page 1: 139 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00003192/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:04,630 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2025-10-01..2026-09-30
+2026-11-15 21:12:05,122 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:05,286 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:05,286 INFO ingest: Fetching GHCND:USC00365918 (Pittsburgh, PA) 2026-10-01..2026-11-14
+2026-11-15 21:12:05,460 INFO ingest:   page 1: 165 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00365918/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:05,460 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2025-10-01..2026-09-30
+2026-11-15 21:12:05,829 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:06,011 INFO ingest:   page 2: 95 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:06,011 INFO ingest: Fetching GHCND:USW00024242 (Portland, OR) 2026-10-01..2026-11-14
+2026-11-15 21:12:06,170 INFO ingest:   page 1: 123 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00024242/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:06,170 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2025-10-01..2026-09-30
+2026-11-15 21:12:06,496 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:06,703 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:06,703 INFO ingest: Fetching GHCND:USW00013722 (Raleigh, NC) 2026-10-01..2026-11-14
+2026-11-15 21:12:06,903 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013722/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:06,903 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2025-10-01..2026-09-30
+2026-11-15 21:12:07,204 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:07,391 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:07,391 INFO ingest: Fetching GHCND:USC00420819 (Salt Lake City, UT) 2026-10-01..2026-11-14
+2026-11-15 21:12:07,545 INFO ingest:   page 1: 162 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USC00420819/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:07,546 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2025-10-01..2026-09-30
+2026-11-15 21:12:07,918 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:08,092 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:08,092 INFO ingest: Fetching GHCND:USW00012921 (San Antonio, TX) 2026-10-01..2026-11-14
+2026-11-15 21:12:08,251 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00012921/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:08,252 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2025-10-01..2026-09-30
+2026-11-15 21:12:08,595 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:08,750 INFO ingest:   page 2: 119 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:08,750 INFO ingest: Fetching GHCND:USW00023188 (San Diego, CA) 2026-10-01..2026-11-14
+2026-11-15 21:12:08,935 INFO ingest:   page 1: 123 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023188/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:08,935 INFO ingest: Fetching GHCND:USW00023234 (San Francisco, CA) 2025-10-01..2026-09-30
+2026-11-15 21:12:09,226 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023234/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:09,364 INFO ingest:   page 2: 95 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023234/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:09,364 INFO ingest: Fetching GHCND:USW00023234 (San Francisco, CA) 2026-10-01..2026-11-14
+2026-11-15 21:12:09,565 INFO ingest:   page 1: 123 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023234/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:09,565 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2025-10-01..2026-09-30
+2026-11-15 21:12:09,956 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:10,130 INFO ingest:   page 2: 459 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:10,130 INFO ingest: Fetching GHCND:USW00024233 (Seattle, WA) 2026-10-01..2026-11-14
+2026-11-15 21:12:10,289 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00024233/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:10,289 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2025-10-01..2026-09-30
+2026-11-15 21:12:10,617 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:10,763 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:10,763 INFO ingest: Fetching GHCND:USW00013994 (St. Louis, MO) 2026-10-01..2026-11-14
+2026-11-15 21:12:10,955 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00013994/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:10,955 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2025-10-01..2026-09-30
+2026-11-15 21:12:11,284 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:11,532 INFO ingest:   page 2: 459 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:11,532 INFO ingest: Fetching GHCND:USW00023185 (Reno, NV) 2026-10-01..2026-11-14
+2026-11-15 21:12:11,669 INFO ingest:   page 1: 164 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00023185/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:11,669 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2025-10-01..2026-09-30
+2026-11-15 21:12:11,997 INFO ingest:   page 1: 1000 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0001.json
+2026-11-15 21:12:12,177 INFO ingest:   page 2: 460 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2025-10-01_2026-09-30/page=0002.json
+2026-11-15 21:12:12,177 INFO ingest: Fetching GHCND:USW00014737 (Allentown, PA) 2026-10-01..2026-11-14
+2026-11-15 21:12:12,339 INFO ingest:   page 1: 168 records -> s3://adsp-31011-hw3-bronze-ehuang/bronze/noaa/ghcnd/station=GHCND_USW00014737/window=2026-10-01_2026-11-14/page=0001.json
+2026-11-15 21:12:12,339 INFO ingest: Bronze done: 96 pages, 49908 records, 0 failed station-windows
+2026-11-15 21:12:12,564 INFO ingest: DQ nulls        passed=49908   failed=0      skipped=0      
+2026-11-15 21:12:12,564 INFO ingest: DQ duplicates   passed=49908   failed=0      skipped=0      exact_duplicate_copies=0 conflicting_copies=0
+2026-11-15 21:12:12,564 INFO ingest: DQ ranges       passed=49908   failed=0      skipped=0      

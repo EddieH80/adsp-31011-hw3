@@ -1,0 +1,22 @@
+[
+  {
+    "check": "nulls",
+    "passed": 49908,
+    "failed": 0,
+    "skipped": 0
+  },
+  {
+    "check": "duplicates",
+    "passed": 49908,
+    "failed": 0,
+    "skipped": 0,
+    "exact_duplicate_copies": 0,
+    "conflicting_copies": 0
+  },
+  {
+    "check": "ranges",
+    "passed": 49908,
+    "failed": 0,
+    "skipped": 0
+  }
+]

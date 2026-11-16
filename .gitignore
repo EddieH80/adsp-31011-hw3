@@ -1,0 +1,7 @@
+ingestion/bronze_local/
+.DS_Store
+__pycache__/
+.pytest_cache/
+ingestion/bronze_local/
+.env
+.DS_Store
